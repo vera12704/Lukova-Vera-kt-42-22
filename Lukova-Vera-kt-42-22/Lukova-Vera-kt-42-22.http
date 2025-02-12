@@ -1,0 +1,6 @@
+@Lukova_Vera_kt_42_22_HostAddress = http://localhost:5211
+
+GET {{Lukova_Vera_kt_42_22_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
