@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\флешка\\кузнецова\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj": {}
+    "C:\\флешка\\проектный практикум\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj": {}
   },
   "projects": {
-    "C:\\флешка\\кузнецова\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj": {
+    "C:\\флешка\\проектный практикум\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\флешка\\кузнецова\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj",
+        "projectUniqueName": "C:\\флешка\\проектный практикум\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj",
         "projectName": "Lukova-Vera-kt-42-22",
-        "projectPath": "C:\\флешка\\кузнецова\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj",
+        "projectPath": "C:\\флешка\\проектный практикум\\repository\\Lukova-Vera-kt-42-22\\Lukova-Vera-kt-42-22.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\флешка\\кузнецова\\repository\\Lukova-Vera-kt-42-22\\obj\\",
+        "outputPath": "C:\\флешка\\проектный практикум\\repository\\Lukova-Vera-kt-42-22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

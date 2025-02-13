@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lukova-Vera-kt-42-22.props" />
+</Project>
