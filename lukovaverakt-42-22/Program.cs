@@ -1,5 +1,9 @@
+using lukovaverakt_42_22.Database;
+using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
+using lukovaverakt_42_22;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +19,9 @@ try
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+    builder.Services.AddDbContext<TeacherDbñontext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 
     var app = builder.Build();
@@ -40,10 +47,3 @@ finally
 {
     LogManager.Shutdown();
 }
-
-
-
-
-
-
-
